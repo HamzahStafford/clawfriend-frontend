@@ -1,0 +1,78 @@
+// Next.js with TypeScript and Tailwind CSS Project Rules
+const projectOverview = [
+  "Next.js project using App Router, TypeScript, Tailwind CSS, and shadcn/ui.",
+  "Feature-based architecture with shared components.",
+];
+
+const codeStyleGuidelines = [
+  "Use TypeScript everywhere.",
+  "Keep functions small and single-responsibility.",
+  "Prefer minimal diffs over refactors.",
+  "Use early returns to reduce nesting.",
+  "Avoid magic values; use constants.",
+  "Use async/await for async logic.",
+  "Follow existing ESLint rules.",
+  "Do not reformat code unless required.",
+];
+
+const fileStructureGuidelines = [
+  "Respect the existing folder structure.",
+  "Do not move or rename files unless explicitly requested.",
+  "Use existing utilities instead of creating new ones.",
+  "Keep file names consistent with component names.",
+];
+
+const componentGuidelines = [
+  "Use existing shadcn/ui components from src/components/ui/.",
+  "Do not recreate UI primitives.",
+  "Keep components single-responsibility.",
+  "Add loading or error UI only if related to the change.",
+];
+
+const nextJsBestPractices = [
+  "Use Server Components by default.",
+  "Add 'use client' only when strictly required.",
+  "Do not change routing, layouts, metadata, error.tsx, or loading.tsx unless asked.",
+];
+
+const performanceGuidelines = [
+  "Avoid unnecessary dependencies.",
+  "Use memoization only when clearly needed.",
+];
+
+const apiGuidelines = [
+  "Use ApiClient from src/lib/ApiClient.ts.",
+  "Do not change API contracts.",
+  "Handle errors only within the modified scope.",
+];
+
+const accessibilityGuidelines = [
+  "Use semantic HTML when modifying UI.",
+  "Preserve existing accessibility behavior.",
+];
+
+const stylingGuidelines = [
+  "Use Tailwind CSS only.",
+  "Do not use inline styles unless explicitly required.",
+  "No hardcoded colors, spacing, or font sizes.",
+  "Use tokens from tailwind.config.ts or src/styles/theme.scss.",
+  "Spacing, padding, and gaps must exactly match Figma.",
+];
+
+const errorHandlingGuidelines = [
+  "Use try/catch only when modifying async logic.",
+  "User-facing errors must use the existing toast system.",
+];
+
+const packageCompatibilityNotes = [
+  "Next.js 15.x",
+  "React 19.x",
+  "TypeScript 5.x",
+  "Tailwind CSS 3.x",
+];
+
+const mcpGuidelines = [
+  "Use design tokens defined in tailwind.config.ts.",
+  "Do not hardcode design values.",
+  "UI spacing must match Figma exactly.",
+];
